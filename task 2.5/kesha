@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int num=0;
+		while(num !=10) {
+		System.out.println("Введите число ");
+		 num=scan.nextInt();
+		if(num==10){
+			System.out.println("Верно");
+			}else{
+			System.out.println("не верно");
+			}
+		}
+	}
+}
