@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Введите число a");
+		float a=scan.nextFloat();
+		 System.out.println("Введите число b");
+		 float b=scan.nextFloat();
+		 float c=a/b;
+		if(c%1==0){
+			System.out.println("Верно "+c);
+			}else{
+			System.out.println("не верно "+c);
+			}
+		}
+	}
