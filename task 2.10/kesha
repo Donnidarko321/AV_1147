@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		int arr[]= {22,44,55,66,66,88};
-		
+		String l="нет";
 		for(int i=0;i<arr.length;i++) {
 			int n=0;
 			for(int j=0;j<arr.length;j++) {
@@ -9,11 +9,13 @@ public class Main {
 				if(arr[i] == arr[j]) n++;
 				//System.out.println(n);
 				}
-			if(n>=2) 
-				System.out.println("Совпадения есть "+arr[i]);
-			else if(n<2)
-				System.out.println("нет");
+			if(n>=2) {
+				//System.out.println("Совпадения есть "+arr[i]);
+				l="да";
+			}else if(n<2) {
+			//	System.out.println("нет");
 			}
-			
+			}
+		System.out.println("Совпадения - "+l);
 		}
 	}
