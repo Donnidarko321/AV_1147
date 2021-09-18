@@ -11,27 +11,11 @@ public class Main {
     public static void main(String[] args) {
     	Scanner scan = new Scanner(System.in);
     	int arr[]= new int[10];
-    	
-    	System.out.println("Введите 1 элемент ");
-    	arr[0]=scan.nextInt();
-    	System.out.println("Введите 2 элемент ");
-    	arr[1]=scan.nextInt();
-    	System.out.println("Введите 3 элемент ");
-    	arr[2]=scan.nextInt();
-    	System.out.println("Введите 4 элемент ");
-    	arr[3]=scan.nextInt();
-    	System.out.println("Введите 5 элемент ");
-    	arr[4]=scan.nextInt();
-    	System.out.println("Введите 6 элемент ");
-    	arr[5]=scan.nextInt();
-    	System.out.println("Введите 7 элемент ");
-    	arr[6]=scan.nextInt();
-    	System.out.println("Введите 8 элемент ");
-    	arr[7]=scan.nextInt();
-    	System.out.println("Введите 9 элемент ");
-    	arr[8]=scan.nextInt();
-    	System.out.println("Введите 10 элемент ");
-    	arr[9]=scan.nextInt();
+ 
+    	for(int l=0;l<10;l++) {
+    	System.out.println("Введите "+l+" элемент ");
+    	arr[l]=scan.nextInt();
+    	}
     	int a=1;
     	int b=0;
     	String lin="";
